@@ -1,0 +1,101 @@
+ Lista 4
+ \\\\
+ 1 - Let $ g :R^{2}×R^{2} \rightarrow R^{4} $ a bilinear 
+ \\application defined by $g(x_{1},x_{2},y_{1},y_{2}) = 
+ \\(x_{1}y_{1},x_{1}y_{2},x_{2}y_{1},x_{2}y_{2})$. 
+ \\Show that the image g is not a vector subspace.
+ \\\\
+ \\\\
+ \\\\
+ 2 - Let $f_{1},...,f_{n} \in L^{1}(V)$, where V is a vector space.
+ \\Show that in the case of these vectors, they are linearly 
+ \\independent, and necessary and sufficient to 
+ \\$f_{1}\wedge...\wedge f_{n}= 0$.
+ \\\\Já tem resposta similar.....
+ \\\\
+ \\\\
+ \\\\
+ \\\\
+ 3. If $T:V \rightarrow W$ is a linear transformation and 
+ \\if f and g are alternating tensioners in W, 
+ \\show that $T^{\ast}(f \wedge g) =T^{\ast} f \wedge T^{\ast} g$.
+ \\\\
+ \\\\
+ \\\\
+ 4. Suppose two subsets ${(w_{1}...,w_{k})}$ and $({\alpha_{1}...,\alpha_{k}})$
+ \\of $L^{1}(V)$ where V is a vector space are given.  
+ \\Also assume that the elements of this set are related by: 
+ \\$w_{i}= \sum_{j=1}^{k} a _{ij} \alpha_{j}$, i= 1,...,k. 
+ \\Show that if $A= (aij)_{k×k}$, then 
+ \\$w_{1}\wedge...\wedge w_{k}= (det(A))\alpha_{1}\wedge...\wedge \alpha_{k}.$
+ \\\\
+ 5 - Fixed $k,m \in N$, $k \geq r$, is w an r-shape in $R^{n}$,
+ \\such that $f^{\ast}(w) = 0$ for all related 
+ \\transformation $f:R^{k} \rightarrow R^{m}$. 
+ \\Prove that w = 0.
+ \\\\
+ \\\\
+ 6 - Let $\alpha, \beta$ 1-ways in an open $U \subset R^{3}$ 
+ \\such that $\alpha \wedge \beta \neq 0$ on all U points. 
+ \\If a 2-shape w em U is such that:
+ \\$w \wedge \alpha = w \wedge \beta = 0$, 
+ \\prove that there is an $f:U \rightarrow R$ function 
+ \\such that $w=f \cdot \alpha \wedge \beta $. 
+ \\If $\alpha ,\beta ,w \in C^{1}(U)$ then $f \in C^{1} (U)$.
+ \\\\
+ \\\\
+ \\\\
+ \\\\
+ \\\\
+ 7. Let w a 2-shape in $R^{2n}$ given by:
+ \\$w=dx_{1} \wedge dx_{2} +dx_{3} \wedge dx_{4} +...
+ \\+dx_{2n - 1} \wedge dx_{2n}.$ 
+ \\Calculate the outer product of n copies of w.
+ \\\\
+ \\\\
+ \\\\
+ \\\\
+ 8. Let $w_{vol}$ a n-forma in $R^{n}$ given by $w_{vol}(e_{1},...,e_{n}) = 1$, 
+ \\where ${(e_{1},...,e_{n})}$ is the canonical basis of $R^{n}$.
+ \\a) Show that if $v_{i} = \sum _{j=1}^{n} a_{ij}e_{j}$ then 
+ \\$w_{vol}(v_{1},...,v_{n}) = det(a_{ij})$. Note that, in case n= 3,
+ \\$w_{vol}(v_{1},v_{2},v_{3})$ is precisely the mixed product of 
+ \\these three vectors, 
+ \\i.e., $w_{vol}(v_{1},v_{2},v_{3}) =vol(v_{1},v_{2},v_{3})$. 
+ \\For this fact, $w_{vol}$ is called a volume element in $R^{n}$. 
+ \\b) Show that $w_{vol} = dx_{1}\wedge...\wedge dx_{n}$.
+ \\\\
+ \\\\
+ 9. Consider the differential form 
+ \\$w=adx+bdy+cdz$,
+ \\where functions $a,b,c:R^{3} R$ are homogeneous 
+ \\of k-grade.  More so suppose $dw= 0$. Show that 
+ \\$w=df$, where:
+ \\$f= \frac {xa+yb+zc}{k+ 1}$. 
+ \\Tip: Note that if $dw= 0$, then:
+ \\$\frac{\partial b}{\partial x} = \frac{\partial a}{\partial y}$,  
+ $\frac{\partial c}{\partial x} = \frac{\partial a}{\partial z}$, 
+ $\frac{\partial b}{\partial z} = \frac{\partial c}{\partial y}$.    
+ \\Then apply the Euler Formula (relationship between 
+ \\derivatives and homogeneous function).
+ \\tem resposta similar
+ \\\\
+ \\\\
+ 10. (Cartan Motto) Suppose $w_{1},...,w_{k} \in \Omega ^{1} (U)$
+ \\are linearly independent, where $U \subset R^{n}$ is opened. 
+ \\If $\alpha_{1},...,\alpha_{k} \in \Omega^{1}(U)$ are such that:
+ \\$\sum _{i=1}^{k} \alpha_{i} \wedge w_{i} = 0$, 
+ \\demonstrate that each $\alpha_{i},i= 1,...,k$ 
+ \\can be written as a 
+ \\linear combination (with gentle coefficients) in
+ \\$w_{1},...,w_{k}.$
+ \\tem resposta similar.
+
+    Let $\omega \in \Omega^{1}$ $(R^2 - {(0,0)})$, given by:
+    $$\omega= \frac {1}{x^2 + y^2} (-ydx + xdy)$
+a) Show that $d\omega = 0$, ie $\omega$ is closed.
+\\
+b) Show that there is no $f \in C^{\infty}$ $(R^2 - {(0,0)})$
+\\such that $\omega = df$. That is, it is closed but not exact.
+
+ 

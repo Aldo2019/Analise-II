@@ -1,0 +1,40 @@
+Prova 2
+\\\\
+\\\\
+Let $U \subset R^{m}$, $V \subset R^{n}$ be open, $\omega$ a differential k-form 
+\\defined in V and $f : U \rightarrow R^{n}$ a map $C^{\infty}$,
+\\such that $f(U) ⊂\subset V $. 
+\\Prove the following statements:
+\\a) $d(d\omega) = 0$, (here d denotes the outer differential).
+\\b) $d(f ^{\ast}(\omega)) = f ^{\ast} (d\omega)$.
+\\\\
+\\\\
+\\\\
+Let $U = R^{3}  -  {(0, 0, 0)}$, and $x = (x_{1}, x_{2}, x_{3})$. 
+\\Consider $\eta \in \Omega^{2}(U)$, defined by
+\\$\eta = g_{1}(x)dx_{2} \wedge dx_{3}  -  g_{2}(x)dx_{ } \wedge dx_{3} + g_{3}(x)dx_{1} \wedge dx_{2}$,
+\\where $gi : U \rightarrow R$ is defined by
+\\$gi(x_{1}, x_{2}, x_{3}) = x_{i}/||x||$. 
+\\The 2-form  $\eta$ closed? taste your answer. 
+\\(Here $||.||$ denotes the Euclidean norm).
+\\\\
+\\\\
+Let $\alpha \in A^{1}(R^{3})$ and $\beta \in A^{2}(R^{3})$ such that $\alpha \wedge \beta = 0.$
+Prove that there is $ \gamma \in A^{1}(R^{3})$ such that $\beta = \alpha \wedge \gamma $.
+\\\\
+\\\\
+\\\\
+Let $\omega = ydx - xdy + dz$ be a 1-form in $R^{3}$
+, let $u, v : R^{3} \rightarrow R$ functions
+$C^{\infty}(R^{3})$. If $\eta = \omega - vdu$ is closed. 
+Prove that $u$ and $v$ are functions that do not depend on
+variable $z$.
+\\\\
+\\\\
+\\\\
+Let $\omega$ be a differential 1-form in $R^{m}$ and $f : R^{m} \rightarrow R$ 
+\\a function $C^{\infty}$, with $f(x) \neq 0$ for all $x \in R^{m}$.
+\\Show that $d(f\omega) \equiv 0$ (identically zero) if, and only if, the 1-form 
+\\\\$\beta = \omega - \frac{1}{f} dx_{m+1}$ 
+\\\\in $R_{m+1}$ satisfies the equation $\beta \wedge d\beta = \omega \wedge d\omega$.
+\\(Consider $R^{m} \subset R^{m+1}$ defined by $x_{m+1} = 0).

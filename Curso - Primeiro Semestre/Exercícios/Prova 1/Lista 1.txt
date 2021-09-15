@@ -1,0 +1,39 @@
+     Define $ f : R^{2} \rightarrow R $  by:
+         \\\\
+         
+         \[
+         f(x, y) = {xy}\codt\frac{(x^{2} - y^{2})}{(x^{2}+y^2)}, if (x, y) \neq  (0, 0),  
+         
+         \\f(x, y) =
+         
+         \\\\0, (x, y) = (0, 0)
+         \]
+         \\\\
+      Prove that $({\partial f/\partial y})(x,0) = x$ for all x and $({\partial f / \partial x})(0,y) = -y$ for all y.
+      \\\\
+      Prove that $({\partial ^{2}f} / \partial x \partial y})$ (0, 0) \neq  $({\partial ^{2} f / \partial y \partial x})$ (0,0).
+\\\\
+\\\\
+\\\\
+\\\\
+Let $ f : U \rightarrow R $ be continuous in the open U contained in  $R^{2}$, such that $(x^{2}+y^{4})f(x, y)+f(x, y)^{3} = 1$
+for any $(x, y) \in U$. Prove that f belongs to an infinite class C.
+
+\\\\
+\\\\
+\\\\
+\\\\
+
+Let U contained in $R^{m}$ be open, $g : U × [a, b] \rightarrow R^{n}$ 
+\\continuous, with partial derivative continuous 
+\\
+{\partial g} : $U × [a, b] \rightarrow L(R^{m}; R^{n})$, 
+\\and \alpha, \beta : $U \rightarrow [a, b]$ class $C^{1}$ functions. 
+\\Consider the map $f : U \rightarrow R^{n}$, defined by:
+\\
+\\$f(x) = \int _{\alpha(x)} ^{\beta(x)} g(x,t) dt$.
+
+\\Prove that $f \in C^{1}$ and compute $f^{'} (x) \cdot h$ 
+\\for arbitrary $x \in U$ and h \in R^{m}.
+\\\\
+\\\\
